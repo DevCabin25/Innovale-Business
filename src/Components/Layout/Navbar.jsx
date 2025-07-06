@@ -32,7 +32,7 @@ const Navbar = () => {
                             <Link to="/" className="text-gray-950 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
                                 Home
                             </Link>
-                            <Link to="/service" className="text-gray-950 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
+                            <Link to="/services" className="text-gray-950 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
                                 Services
                             </Link>
                             <Link to="/about" className="text-gray-950 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">
