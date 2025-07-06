@@ -4,16 +4,36 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Root from "./Router/Root";
 import Home from "./Components/Home/Home";
+import About from "./Components/About/About";
+import Services from "./Components/Services/Services";
+import Pages from "./Components/Pages/Pages";
+import News from "./Components/News/News";
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <Root />,
     children: [
       {
-        path: '/',
+        path: "/",
         element: <Home />,
       },
+      {
+        path: "/about",
+        element: <About></About>,
+      },
+      {
+        path: "/services",
+        element: <Services></Services>,
+      },
+      {
+        path: "/pages",
+        element: <Pages></Pages>,
+      },
+      {
+        path:'/news',
+        element:<News></News>
+      }
     ],
   },
 ]);
