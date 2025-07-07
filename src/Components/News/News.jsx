@@ -5,7 +5,7 @@ const News = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('All');
 
-    // Sample news data
+  
     const featuredNews = [
         {
             id: 1,
@@ -82,7 +82,7 @@ const News = () => {
 
     return (
         <div className="min-h-screen bg-gray-50 pt-20">
-            {/* Hero Section */}
+  
             <div className="bg-gradient-to-r from-purple-600 via-pink-600 to-purple-700 text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center">
@@ -92,8 +92,6 @@ const News = () => {
                         <p className="text-xl md:text-2xl mb-8 text-purple-100">
                             Stay updated with the latest trends, innovations, and insights from Innovale Business
                         </p>
-                        
-                        {/* Search Bar */}
                         <div className="max-w-2xl mx-auto relative">
                             <div className="relative">
                                 <input
@@ -113,7 +111,6 @@ const News = () => {
                 </div>
             </div>
 
-            {/* Category Filter */}
             <div className="bg-white border-b">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
                     <div className="flex flex-wrap gap-3 justify-center">
@@ -133,8 +130,6 @@ const News = () => {
                     </div>
                 </div>
             </div>
-
-            {/* Featured Articles */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Featured Articles</h2>
                 <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -186,7 +181,6 @@ const News = () => {
                     ))}
                 </div>
 
-                {/* Latest Articles */}
                 <div className="mb-8">
                     <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Latest Articles</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -233,7 +227,6 @@ const News = () => {
                     </div>
                 </div>
 
-                {/* Newsletter Subscription */}
                 <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl p-8 text-white text-center">
                     <h3 className="text-2xl font-bold mb-4">Stay Updated</h3>
                     <p className="text-purple-100 mb-6 max-w-2xl mx-auto">

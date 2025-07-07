@@ -5,7 +5,7 @@ const NewsSection = () => {
   return (
     <div className="mb-8 py-10 px-14 bg-gray-50">
       <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
-      Latest Updates and News
+        Latest Updates and News
       </h2>
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -17,19 +17,14 @@ const NewsSection = () => {
                 alt="Digital Marketing"
                 className="w-full h-64 object-cover"
               />
-              <div className="absolute top-3 left-3">
-                <span className="bg-purple-600 text-white px-2 py-1 rounded-full text-xs font-medium">
-                  Marketing
-                </span>
-              </div>
             </div>
             <div className="p-5">
               <h3 className="text-lg font-bold text-gray-900 mb-2">
-                The Future of Digital Marketing: Trends to Watch in 2025
+                Simple Juice Recipes to boost your immune system
               </h3>
               <p className="text-gray-600 text-sm mb-3">
-                Discover the latest trends that will shape digital marketing
-                strategies and consumer engagement in the coming year.
+                Objectively restore stand-alone markets rather than
+                enterprise-wide products.
               </p>
               <div className="flex items-center gap-3 text-xs text-gray-500 mb-2 justify-between">
                 <div className="flex items-center gap-1">
@@ -52,19 +47,14 @@ const NewsSection = () => {
                 alt="Sustainability"
                 className="w-full h-64 object-cover"
               />
-              <div className="absolute top-3 left-3">
-                <span className="bg-purple-600 text-white px-2 py-1 rounded-full text-xs font-medium">
-                  Sustainability
-                </span>
-              </div>
             </div>
             <div className="p-5">
               <h3 className="text-lg font-bold text-gray-900 mb-2">
-                Sustainable Business Practices: A Guide for Modern Companies
+                4 steps for measuring the impact of product
               </h3>
               <p className="text-gray-600 text-sm mb-3">
-                How businesses can implement eco-friendly practices while
-                maintaining profitability and competitive advantage.
+                Clearly, the rise of time spent on social media creates a strain
+                on all of its users, and these effects
               </p>
               <div className="flex items-center gap-3 text-xs text-gray-500 mb-2 justify-between">
                 <div className="flex items-center gap-1">
@@ -87,19 +77,14 @@ const NewsSection = () => {
                 alt="Cybersecurity"
                 className="w-full h-64 object-cover"
               />
-              <div className="absolute top-3 left-3">
-                <span className="bg-purple-600 text-white px-2 py-1 rounded-full text-xs font-medium">
-                  Security
-                </span>
-              </div>
             </div>
             <div className="p-5">
               <h3 className="text-lg font-bold text-gray-900 mb-2">
-                Cybersecurity in 2025: Protecting Your Digital Assets
+                The modern product manager’s tech stack
               </h3>
               <p className="text-gray-600 text-sm mb-3">
-                Essential cybersecurity strategies and best practices to
-                safeguard your business in an increasingly digital world.
+                The essential tools for the modern product manager for capturing
+                feedback, prioritizing, ideating
               </p>
               <div className="flex items-center gap-3 text-xs text-gray-500 mb-2 justify-between">
                 <div className="flex items-center gap-1">

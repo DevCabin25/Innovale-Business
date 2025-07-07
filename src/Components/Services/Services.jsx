@@ -60,7 +60,7 @@ const servicesData = [
 const Services = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-4 sm:px-6 lg:px-8">
-      {/* Header Section */}
+
       <div className="max-w-4xl mx-auto text-center mb-16">
         <h1 className="text-5xl font-bold text-gray-900 mb-6">
           Our Services
@@ -70,8 +70,6 @@ const Services = () => {
           From concept to deployment, we're with you every step of the way.
         </p>
       </div>
-
-      {/* Services Grid */}
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {servicesData.map((service) => (
           <div
@@ -113,8 +111,6 @@ const Services = () => {
           </div>
         ))}
       </div>
-
-      {/* Bottom CTA Section */}
       <div className="max-w-4xl mx-auto text-center mt-20">
         <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white">
           <h2 className="text-3xl font-bold mb-4">

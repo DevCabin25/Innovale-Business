@@ -45,12 +45,11 @@ const About = () => {
             className="[perspective:1000px]"
           >
             <div className="relative h-40 w-full transition-transform duration-500 [transform-style:preserve-3d] group hover:[transform:rotateY(180deg)] cursor-pointer">
-              {/* Front */}
+
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-6 text-center [backface-visibility:hidden]">
                 <span className="text-4xl mb-2">{fact.icon}</span>
                 <span className="font-semibold text-lg text-gray-800">{fact.front}</span>
               </div>
-              {/* Back */}
               <div className="absolute inset-0 flex flex-col items-center justify-center bg-blue-600 text-white rounded-xl shadow-lg p-6 text-center [transform:rotateY(180deg)] [backface-visibility:hidden]">
                 <span className="font-medium">{fact.back}</span>
               </div>
