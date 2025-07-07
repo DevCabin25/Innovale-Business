@@ -3,10 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="w-full  py-16 px-4 sm:px-8">
-      {" "}
-      {/* navbar এর নিচে gap */}
       <div className="flex flex-col md:flex-row min-h-[500px]">
-        {/* Left: Text Section */}
         <div className="w-full md:w-1/2 bg-[#30344E] text-white flex flex-col justify-center px-8 py-12">
           <h1 className="text-3xl md:text-4xl font-bold mb-4 leading-snug">
             We Provide Premium Consulting Service For Your Business
@@ -26,8 +23,6 @@ const Banner = () => {
             </span>
           </p>
         </div>
-
-        {/* Right: Image Section */}
         <div className="w-full md:w-1/2 bg-[#52C5B6]">
           <img
             src="/src/assets/banner.png"
