@@ -4,6 +4,7 @@ import AboutUs from '../HomeSection/AboutUs';
 import ServiceSection from '../HomeSection/ServiceSection';
 import NewsSection from '../HomeSection/NewsSection';
 import BestReliable from '../HomeSection/BestReliable';
+import DigitalPaltfrom from '../HomeSection/DigitalPaltfrom';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <AboutUs></AboutUs>
             <ServiceSection></ServiceSection>
             <BestReliable></BestReliable>
+            <DigitalPaltfrom></DigitalPaltfrom>
             <NewsSection></NewsSection>
         </div>
     );
