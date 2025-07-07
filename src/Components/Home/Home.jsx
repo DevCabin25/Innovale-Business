@@ -5,6 +5,7 @@ import ServiceSection from '../HomeSection/ServiceSection';
 import NewsSection from '../HomeSection/NewsSection';
 import BestReliable from '../HomeSection/BestReliable';
 import DigitalPaltfrom from '../HomeSection/DigitalPaltfrom';
+import OurTeam from '../HomeSection/OurTeam';
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <ServiceSection></ServiceSection>
             <BestReliable></BestReliable>
             <DigitalPaltfrom></DigitalPaltfrom>
+            <OurTeam></OurTeam>
             <NewsSection></NewsSection>
         </div>
     );
