@@ -4,7 +4,7 @@ const BestReliable = () => {
   return (
     <div className="bg-base-200 py-16">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-12 xl:px-20 flex flex-col lg:flex-row items-center gap-16">
-        {/* Left content */}
+
         <div className="w-full lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight mb-6">
             Best Reliable Solution <br className="hidden lg:block" /> For Your Business
@@ -17,8 +17,6 @@ const BestReliable = () => {
           <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 mb-10">
             Get Started Now
           </button>
-
-          {/* Feature Section */}
           <div className="grid gap-6 md:grid-cols-2">
             <div>
               <h2 className="text-2xl font-semibold mb-2">
@@ -42,7 +40,6 @@ const BestReliable = () => {
           </div>
         </div>
 
-        {/* Right image */}
         <div className="w-full lg:w-1/2">
           <img
             src="/src/assets/Image & Elements (7).png"

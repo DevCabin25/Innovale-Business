@@ -4,7 +4,7 @@ import React from "react";
 const ServiceSection = () => {
   return (
     <div className="py-16 px-6 lg:px-20 bg-white">
-      {/* Top Heading */}
+
       <div className="flex justify-between items-center flex-wrap mb-12">
         <div>
           <h3 className="text-red-500 text-lg font-semibold">Service</h3>

@@ -5,7 +5,7 @@ const DigitalPlatform = () => {
     <div className="bg-base-100 py-16">
       <div className="max-w-screen-xl mx-auto px-6 lg:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-12 shadow-xl rounded-xl bg-white p-6">
-          {/* Left Image */}
+
           <div className="w-full lg:w-1/2">
             <img
               src="/src/assets/Image & Element.png"
@@ -14,15 +14,12 @@ const DigitalPlatform = () => {
             />
           </div>
 
-          {/* Right Content */}
           <div className="w-full lg:w-1/2 space-y-6">
             <h2 className="text-3xl lg:text-4xl font-bold leading-snug">
               Startup digital platform <br /> for investing
             </h2>
-
-            {/* Accordions */}
             <div className="space-y-4">
-              {/* Accordion 1 */}
+
               <div className="collapse collapse-arrow border border-[#D6D8E8] rounded-lg bg-base-200">
                 <input type="radio" name="accordion" defaultChecked />
                 <div className="collapse-title text-lg font-medium">
@@ -37,8 +34,6 @@ const DigitalPlatform = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Accordion 2 */}
               <div className="collapse collapse-arrow border  border-[#D6D8E8]  rounded-lg bg-base-200">
                 <input type="radio" name="accordion" />
                 <div className="collapse-title text-lg bg-[#52C5B6] font-medium">
@@ -53,7 +48,7 @@ const DigitalPlatform = () => {
                 </div>
               </div>
 
-              {/* Accordion 3 */}
+
               <div className="collapse collapse-arrow border  border-[#D6D8E8]  rounded-lg bg-base-200">
                 <input type="radio" name="accordion" />
                 <div className="collapse-title text-lg font-medium">
@@ -67,7 +62,7 @@ const DigitalPlatform = () => {
                 </div>
               </div>
 
-              {/* Accordion 4 */}
+
               <div className="collapse collapse-arrow border  border-[#D6D8E8]  rounded-lg bg-base-200">
                 <input type="radio" name="accordion" />
                 <div className="collapse-title text-lg font-medium">
