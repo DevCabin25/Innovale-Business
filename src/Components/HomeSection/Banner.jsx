@@ -12,7 +12,7 @@ const Banner = () => {
             The Premium Consulting Service provides a faster way to process
             plans, register dealings and create titles.
           </p>
-          <button className= " w-1/2 bg-[#FD5F36] px-4 py-2 text-sm text-white rounded-md hover:bg-purple-800 transition">
+          <button className= "w-1/2 bg-[#FD5F36] px-4 py-2 text-sm text-white rounded-md hover:bg-purple-800 transition">
             Get Started
           </button>
 

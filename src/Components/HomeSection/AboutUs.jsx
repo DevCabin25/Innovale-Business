@@ -40,7 +40,7 @@ const AboutUs = () => {
               Monthly rent problem solution
             </li>
           </ul>
-          <button className="mt-6 inline-block bg-indigo-600 text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-indigo-700 transition">
+          <button className="mt-6 inline-block bg-[#FD5F36] text-white px-6 py-3 rounded-xl font-semibold shadow hover:bg-indigo-700 transition">
             Free Consultation
           </button>
         </div>

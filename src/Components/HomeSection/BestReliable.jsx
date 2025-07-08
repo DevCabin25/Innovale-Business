@@ -14,7 +14,7 @@ const BestReliable = () => {
             experiences, and print materials that communicate clearly and achieve
             marketing goals effectively.
           </p>
-          <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 mb-10">
+          <button className="bg-[#FD5F36] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition duration-300 mb-10">
             Get Started Now
           </button>
           <div className="grid gap-6 md:grid-cols-2">
