@@ -45,7 +45,7 @@ const NewsSection = () => {
               <img
                 src="/src/assets/experts_2.jpg"
                 alt="Sustainability"
-                className="w-full h-64 object-cover"
+                className="w-full h-64 object-cover "
               />
             </div>
             <div className="p-5">
