@@ -7,6 +7,7 @@ import BestReliable from '../HomeSection/BestReliable';
 import DigitalPaltfrom from '../HomeSection/DigitalPaltfrom';
 import OurTeam from '../HomeSection/OurTeam';
 import TrustedBy from '../HomeSection/TrustedBy';
+import Testimonials from '../Testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <DigitalPaltfrom></DigitalPaltfrom>
            <TrustedBy></TrustedBy>
             <NewsSection></NewsSection>
+            <Testimonials></Testimonials>
         </div>
     );
 };
