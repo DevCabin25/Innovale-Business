@@ -7,7 +7,7 @@ const AboutUs = () => {
 
         <div className="relative">
           <img
-            src="/src/assets/Image & Elements.png"
+            src="/public/Image & Elements.png"
             alt="About Us"
             className="rounded-3xl shadow-lg w-full h-auto object-cover transform transition duration-500"
           />

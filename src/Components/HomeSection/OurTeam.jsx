@@ -1,5 +1,5 @@
 import React from "react";
-import bgImage from "../../assets/BG.png";
+import bgImage from "../../../public/BG.png";
 const OurTeam = () => {
   return (
     <div>
@@ -29,22 +29,22 @@ const OurTeam = () => {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {/* Card 1 */}
           <div className=" rounded-xl  p-4 text-center">
-            <img src={"/src/assets/Team Member-1.png"} alt="Team Member" />
+            <img src={"/public/Team Member-1.png"} alt="Team Member" />
           </div>
 
           {/* Card 2 */}
           <div className=" rounded-xl p-4 text-center">
-            <img src={"/src/assets/Team Member-2.png"} alt="Team Member" />
+            <img src={"/public/Team Member-2.png"} alt="Team Member" />
           </div>
 
           {/* Card 3 */}
           <div className=" rounded-xl  p-4 text-center">
-            <img src={"/src/assets/Team Member-3.png"} alt="Team Member" />
+            <img src={"/public/Team Member-3.png"} alt="Team Member" />
           </div>
 
           {/* Card 4 */}
           <div className=" rounded-xl p-4 text-center">
-            <img src={"/src/assets/Team Member-4.png"} alt="Team Member" />
+            <img src={"/public/Team Member-4.png"} alt="Team Member" />
           </div>
         </div>
       </div>
