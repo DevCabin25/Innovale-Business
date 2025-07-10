@@ -24,7 +24,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#F44C4C] rounded-2xl"
-              src="/src/assets/002-sprout 1.png"
+              src="/public/002-sprout 1.png"
               alt=""
             />
           </figure>
@@ -42,7 +42,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#52C5B6] rounded-2xl"
-              src="/src/assets/003-graph 1.png"
+              src="/public/003-graph 1.png"
               alt=""
             />
           </figure>
@@ -58,7 +58,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#2BCCFF] rounded-2xl"
-              src="/src/assets/004-negotiation 1.png"
+              src="/public/004-negotiation 1.png"
               alt=""
             />
           </figure>
@@ -77,7 +77,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#5D5FEF] rounded-2xl"
-              src="/src/assets/008-startup 1.png"
+              src="/public/008-startup 1.png"
               alt=""
             />
           </figure>

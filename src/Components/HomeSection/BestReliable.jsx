@@ -42,7 +42,7 @@ const BestReliable = () => {
 
         <div className="w-full lg:w-1/2">
           <img
-            src="/src/assets/Image & Elements (7).png"
+            src="/public/Image & Elements (7).png"
             alt="Business Solution"
             className="w-full max-w-md mx-auto rounded-xl shadow-2xl"
           />

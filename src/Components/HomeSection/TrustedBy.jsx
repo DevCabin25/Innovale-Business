@@ -32,10 +32,10 @@ const TrustedBy = () => {
           </div>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-3 items-center">
-            <img src="/src/assets/1.png" alt="Brand 1" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/2.png" alt="Brand 2" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/3.png" alt="Brand 3" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/4.png" alt="Brand 4" className="h-10 lg:h-12 object-contain" />
+            <img src="/public/1.png" alt="Brand 1" className="h-10 lg:h-12 object-contain" />
+            <img src="/public/2.png" alt="Brand 2" className="h-10 lg:h-12 object-contain" />
+            <img src="/public/3.png" alt="Brand 3" className="h-10 lg:h-12 object-contain" />
+            <img src="/public/4.png" alt="Brand 4" className="h-10 lg:h-12 object-contain" />
           </div>
         </div>
       </div>

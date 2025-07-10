@@ -25,7 +25,7 @@ const Banner = () => {
         </div>
         <div className="w-full md:w-1/2 bg-[#52C5B6]">
           <img
-            src="/src/assets/banner.png"
+            src="/public/banner.png"
             alt="Banner"
             className="w-full h-full object-cover max-h-[500px]"
           />
