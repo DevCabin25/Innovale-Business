@@ -3,18 +3,24 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section className="bg-gradient-to-br from-white to-gray-100 py-16 px-6 lg:px-20">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center ">
 
-        <div className="relative">
+
+        <div class="relative w-72 overflow-hidden object-center rounded-lg">
+          <img className="h-12" src="/src/assets/images/About-Us/Group 1000003669.png" alt="" />
+          
           <img
-            src="/src/assets/Image & Elements.png"
-            alt="About Us"
-            className="rounded-3xl shadow-lg w-full h-auto object-cover transform transition duration-500"
+            src="/src/assets//images/Expert/experts_3.jpg"
+            alt="Background"
+            class="w-full h-full object-cover -mt-6 ml-4 rounded-md"
           />
-          <div className="absolute top-4 left-4 bg-white/80 backdrop-blur-md text-xs px-3 py-1 rounded-md shadow text-gray-700 font-medium">
-            Trusted Since 2010
+          {/* <!-- Circle design in front --> */}
+          <div class="absolute bottom-0 right-0 w-48 h-48 bg-teal-400 rounded-tl-full"></div>
+          <div className="absolute bottom-0 right-0 w-36 h-36 bg-white rounded-tl-full">
           </div>
         </div>
+
+        <img className="absolute -mt-28 md:mt-[330px]  ml-48 w-36  z-50 " src="/src/assets/images/About-Us/Line Element.png" alt="" />
 
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-gray-900">

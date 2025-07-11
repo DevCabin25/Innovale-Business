@@ -13,7 +13,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update_and_news_1.jpg"
+                src="/src/assets/images/update-news/update_and_news_1.jpg"
                 alt="Digital Marketing"
                 className="w-full h-64 object-cover"
               />
@@ -43,7 +43,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update_and_news_2.jpg"
+                src="/src/assets/images/update-news/update_and_news_2.jpg"
                 alt="Sustainability"
                 className="w-full h-64 object-cover "
               />
@@ -73,7 +73,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update_and_news_3.jpg"
+                src="/src/assets/images/update-news/update_and_news_3.jpg"
                 alt="Cybersecurity"
                 className="w-full h-64 object-cover"
               />
