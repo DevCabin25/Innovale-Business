@@ -1,4 +1,9 @@
 import React from "react";
+import sproutIcon from "/src/assets/002-sprout 1.png";
+import graphIcon from "/src/assets/003-graph 1.png";
+import negotiationIcon from "/src/assets/004-negotiation 1.png";
+import startupIcon from "/src/assets/008-startup 1.png";
+
 
 
 const ServiceSection = () => {
@@ -24,7 +29,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#F44C4C] rounded-2xl"
-              src="/src/assets/002-sprout 1.png"
+              src={sproutIcon}
               alt=""
             />
           </figure>
@@ -42,7 +47,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#52C5B6] rounded-2xl"
-              src="/src/assets/003-graph 1.png"
+              src={graphIcon}
               alt=""
             />
           </figure>
@@ -58,7 +63,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#2BCCFF] rounded-2xl"
-              src="/src/assets/004-negotiation 1.png"
+              src={negotiationIcon}
               alt=""
             />
           </figure>
@@ -77,7 +82,7 @@ const ServiceSection = () => {
           <figure className="pt-6">
             <img
               className="bg-[#5D5FEF] rounded-2xl"
-              src="/src/assets/008-startup 1.png"
+              src={startupIcon}
               alt=""
             />
           </figure>

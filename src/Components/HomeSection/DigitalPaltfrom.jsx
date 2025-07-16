@@ -1,4 +1,5 @@
 import React from "react";
+import DigitalPlatforme from "/src/assets/Image & Element.png";
 
 const DigitalPlatform = () => {
   return (
@@ -8,7 +9,7 @@ const DigitalPlatform = () => {
 
           <div className="w-full lg:w-1/2">
             <img
-              src="/src/assets/Image & Element.png"
+              src={DigitalPlatforme}
               alt="Digital Platform"
               className="w-full max-w-md mx-auto rounded-lg"
             />

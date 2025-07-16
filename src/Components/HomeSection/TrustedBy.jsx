@@ -1,4 +1,9 @@
 import React from "react";
+import brand1 from "/src/assets/1.png";
+import brand2 from "/src/assets/2.png";
+import brand3 from "/src/assets/3.png";
+import brand4 from "/src/assets/4.png";
+
 
 const TrustedBy = () => {
   return (
@@ -32,10 +37,10 @@ const TrustedBy = () => {
           </div>
 
           <div className="flex flex-wrap justify-center lg:justify-start gap-3 items-center">
-            <img src="/src/assets/1.png" alt="Brand 1" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/2.png" alt="Brand 2" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/3.png" alt="Brand 3" className="h-10 lg:h-12 object-contain" />
-            <img src="/src/assets/4.png" alt="Brand 4" className="h-10 lg:h-12 object-contain" />
+            <img src={brand1} alt="Brand 1" className="h-10 lg:h-12 object-contain" />
+            <img src={brand2} alt="Brand 2" className="h-10 lg:h-12 object-contain" />
+            <img src={brand3} alt="Brand 3" className="h-10 lg:h-12 object-contain" />
+            <img src={brand4} alt="Brand 4" className="h-10 lg:h-12 object-contain" />
           </div>
         </div>
       </div>

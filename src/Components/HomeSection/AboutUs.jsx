@@ -1,4 +1,7 @@
 import React from "react";
+import groupImage from "/src/assets/images/About-Us/Group 1000003669.png";
+import expertImage from "/src/assets/images/Expert/experts_3.jpg";
+import lineElement from "/src/assets/images/About-Us/Line Element.png";
 
 const AboutUs = () => {
   return (
@@ -7,10 +10,10 @@ const AboutUs = () => {
 
 
         <div class="relative w-72 overflow-hidden object-center rounded-lg">
-          <img className="h-12" src="/src/assets/images/About-Us/Group 1000003669.png" alt="" />
+          <img className="h-12" src={groupImage} alt="" />
           
           <img
-            src="/src/assets//images/Expert/experts_3.jpg"
+            src={expertImage}
             alt="Background"
             class="w-full h-full object-cover -mt-6 ml-4 rounded-md"
           />
@@ -20,7 +23,7 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <img className="absolute -mt-28 md:mt-[330px]  ml-48 w-36  z-50 " src="/src/assets/images/About-Us/Line Element.png" alt="" />
+        <img className="absolute -mt-28 md:mt-[330px]  ml-48 w-36  z-50 " src={lineElement} alt="" />
 
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-gray-900">

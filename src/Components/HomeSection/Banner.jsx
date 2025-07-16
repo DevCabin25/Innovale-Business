@@ -1,4 +1,5 @@
 import React from "react";
+import BannerImage from '/src/assets/banner.png'
 
 const Banner = () => {
   return (
@@ -25,7 +26,7 @@ const Banner = () => {
         </div>
         <div className="w-full md:w-1/2 bg-[#52C5B6]">
           <img
-            src="/src/assets/banner.png"
+            src={BannerImage}
             alt="Banner"
             className="w-full h-full object-cover max-h-[500px]"
           />

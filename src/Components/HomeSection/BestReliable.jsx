@@ -1,4 +1,5 @@
 import React from "react";
+import BusinessSolution from "/src/assets/Image & Elements (7).png";
 
 const BestReliable = () => {
   return (
@@ -42,7 +43,7 @@ const BestReliable = () => {
 
         <div className="w-full lg:w-1/2">
           <img
-            src="/src/assets/Image & Elements (7).png"
+            src={BusinessSolution}
             alt="Business Solution"
             className="w-full max-w-md mx-auto rounded-xl shadow-2xl"
           />

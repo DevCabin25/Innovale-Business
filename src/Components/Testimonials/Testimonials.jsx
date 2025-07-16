@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from "../../../src/assets/images/Expert/experts_3.jpg"
 
 const Testimonials = () => {
   return (
@@ -14,7 +15,7 @@ const Testimonials = () => {
               “Wow. Amazing Company amazing Expert Manager. They know how to get things done when it comes to online trading. So impressed by the knowledge and sincerity. Thank you Mrs Victoria for your amazing company.”
             </p>
             <div className="flex items-center">
-              <div className="w-12 h-12 rounded-full bg-gray-300 mr-4"></div>
+              <img className="w-12 h-12 rounded-full bg-gray-300 mr-4" src={profileImg} alt="" />
               <div>
                 <h4 className="font-bold text-gray-800">Jenny Wilson</h4>
                 <p className="text-sm text-gray-500">Digital Marketer</p>

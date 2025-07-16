@@ -1,5 +1,11 @@
 import React from "react";
-import bgImage from "../../assets/BG.png";
+import bgImage from "/src/assets/BG.png";
+import expert1 from "/src/assets/images/Expert/experts_1.jpg";
+import expert2 from "/src/assets/images/Expert/experts_2.jpg";
+import expert3 from "/src/assets/images/Expert/experts_3.jpg";
+import expert4 from "/src/assets/images/Expert/experts_4.jpg";
+
+
 const OurTeam = () => {
   return (
     <div>
@@ -29,7 +35,7 @@ const OurTeam = () => {
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {/* Card 1 */}
           <div className="realtive rounded-xl  p-4 text-center">
-            <img className="h-[250px] w-[330px] rounded-md  " src={"/src/assets/images/Expert/experts_1.jpg"} alt="Team Member" />
+            <img className="h-[250px] w-[330px] rounded-md  " src={expert1} alt="Team Member" />
             <div className="bg-white p-4 text-black absolute -mt-10  w-40 h-16 rounded-tr-md flex justify-center items-center gap-2">
               <div>
                 <p className="bg-black w-6 h-[1px] mb-3"></p>
@@ -42,7 +48,7 @@ const OurTeam = () => {
           </div>
           {/* Card 2 */}
           <div className="realtive rounded-xl  p-4 text-center">
-            <img className="h-[250px] w-[330px] rounded-md  " src={"/src/assets/images/Expert/experts_2.jpg"} alt="Team Member" />
+            <img className="h-[250px] w-[330px] rounded-md  " src={expert2} alt="Team Member" />
             <div className="bg-[#52C5B6] p-4 text-black absolute -mt-10  w-40 h-16 rounded-tr-md flex justify-center items-center gap-2">
               <div>
                 <p className="bg-white   w-6 h-[1px] mb-3"></p>
@@ -55,7 +61,7 @@ const OurTeam = () => {
           </div>
           {/* Card 3 */}
           <div className="realtive rounded-xl  p-4 text-center">
-            <img className="h-[250px] w-[330px] rounded-md  " src={"/src/assets/images/Expert/experts_3.jpg"} alt="Team Member" />
+            <img className="h-[250px] w-[330px] rounded-md  " src={expert3} alt="Team Member" />
             <div className="bg-white p-4 text-black absolute -mt-10  w-40 h-16 rounded-tr-md flex justify-center items-center gap-2">
               <div>
                 <p className="bg-black w-6 h-[1px] mb-3"></p>
@@ -68,7 +74,7 @@ const OurTeam = () => {
           </div>
           {/* Card 4 */}
           <div className="realtive rounded-xl  p-4 text-center">
-            <img className="h-[250px] w-[330px] rounded-md  " src={"/src/assets/images/Expert/experts_4.jpg"} alt="Team Member" />
+            <img className="h-[250px] w-[330px] rounded-md  " src={expert4} alt="Team Member" />
             <div className="bg-white p-4 text-black absolute -mt-10  w-40 h-16 rounded-tr-md flex justify-center items-center gap-2">
               <div>
                 <p className="bg-black w-6 h-[1px] mb-3"></p>

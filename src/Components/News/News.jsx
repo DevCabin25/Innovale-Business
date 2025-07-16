@@ -1,17 +1,23 @@
 import React, { useState } from 'react';
-import { FaSearch, FaCalendarAlt, FaUser, FaTag, FaArrowRight, FaBookmark, FaShare } from 'react-icons/fa';
+import { FaSearch, FaCalendarAlt, FaUser, FaArrowRight, FaBookmark, FaShare } from 'react-icons/fa';
+
+import updateNews1 from '../../../src/assets/images/update-news/update_and_news_1.jpg';
+import updateNews2 from '../../../src/assets/images/update-news/update_and_news_2.jpg';
+import expert1 from '../../assets/images/Expert/experts_1.jpg';
+import expert2 from '../../assets/images/Expert/experts_2.jpg';
+import expert3 from '../../assets/images/Expert/experts_3.jpg';
+import expert4 from '../../assets/images/Expert/experts_4.jpg';
 
 const News = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedCategory, setSelectedCategory] = useState('All');
 
-  
     const featuredNews = [
         {
             id: 1,
             title: "Innovale Business Announces Revolutionary AI-Powered Solutions",
             excerpt: "Leading the digital transformation with cutting-edge artificial intelligence solutions that redefine business efficiency and productivity.",
-            image: "/src/assets/update_and_news_1.jpg",
+            image: updateNews1,
             category: "Technology",
             author: "Sarah Johnson",
             date: "Dec 15, 2024",
@@ -22,7 +28,7 @@ const News = () => {
             id: 2,
             title: "Global Expansion: Innovale Opens New Offices in Asia-Pacific",
             excerpt: "Strategic expansion into emerging markets demonstrates our commitment to serving clients worldwide with innovative business solutions.",
-            image: "/src/assets/update_and_news_2 (1).jpg",
+            image: updateNews2,
             category: "Business",
             author: "Michael Chen",
             date: "Dec 12, 2024",
@@ -36,7 +42,7 @@ const News = () => {
             id: 3,
             title: "The Future of Digital Marketing: Trends to Watch in 2025",
             excerpt: "Discover the latest trends that will shape digital marketing strategies and consumer engagement in the coming year.",
-            image: "/src/assets/experts_1.jpg",
+            image: expert1,
             category: "Marketing",
             author: "Emily Rodriguez",
             date: "Dec 10, 2024",
@@ -46,7 +52,7 @@ const News = () => {
             id: 4,
             title: "Sustainable Business Practices: A Guide for Modern Companies",
             excerpt: "How businesses can implement eco-friendly practices while maintaining profitability and competitive advantage.",
-            image: "/src/assets/experts_2.jpg",
+            image: expert2,
             category: "Sustainability",
             author: "David Thompson",
             date: "Dec 8, 2024",
@@ -56,7 +62,7 @@ const News = () => {
             id: 5,
             title: "Cybersecurity in 2025: Protecting Your Digital Assets",
             excerpt: "Essential cybersecurity strategies and best practices to safeguard your business in an increasingly digital world.",
-            image: "/src/assets/experts_3.jpg",
+            image: expert3,
             category: "Security",
             author: "Lisa Wang",
             date: "Dec 5, 2024",
@@ -66,7 +72,7 @@ const News = () => {
             id: 6,
             title: "Remote Work Revolution: Building Effective Virtual Teams",
             excerpt: "Strategies for managing remote teams, maintaining productivity, and fostering collaboration in a virtual environment.",
-            image: "/src/assets/experts_4.jpg",
+            image: expert4,
             category: "Workplace",
             author: "James Wilson",
             date: "Dec 3, 2024",
@@ -82,7 +88,6 @@ const News = () => {
 
     return (
         <div className="min-h-screen bg-gray-50 pt-20">
-  
             <div className="bg-gradient-to-r from-purple-600 via-pink-600 to-purple-700 text-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center">
@@ -130,6 +135,7 @@ const News = () => {
                     </div>
                 </div>
             </div>
+
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Featured Articles</h2>
                 <div className="grid md:grid-cols-2 gap-8 mb-16">

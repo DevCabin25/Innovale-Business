@@ -1,5 +1,9 @@
 import React from "react";
 import { FaUser, FaCalendarAlt, FaArrowRight } from "react-icons/fa";
+import updateNews1 from "/src/assets/images/update-news/update_and_news_1.jpg";
+import updateNews2 from "/src/assets/images/update-news/update_and_news_2.jpg";
+import updateNews3 from "/src/assets/images/update-news/update_and_news_3.jpg";
+
 
 const NewsSection = () => {
   return (
@@ -13,7 +17,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update-news/update_and_news_1.jpg"
+                src={updateNews1}
                 alt="Digital Marketing"
                 className="w-full h-64 object-cover"
               />
@@ -43,7 +47,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update-news/update_and_news_2.jpg"
+                src={updateNews2}
                 alt="Sustainability"
                 className="w-full h-64 object-cover "
               />
@@ -73,7 +77,7 @@ const NewsSection = () => {
           <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <div className="relative">
               <img
-                src="/src/assets/images/update-news/update_and_news_3.jpg"
+                src={updateNews3}
                 alt="Cybersecurity"
                 className="w-full h-64 object-cover"
               />
